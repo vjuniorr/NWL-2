@@ -1,25 +1,27 @@
 // Dados
 const proffys = [
-    { name: "Diego Fernandes",
-      avatar: "https://avatars2.githubusercontent.com/u/2254731?s=460&amp;u=0ba16a79456c2f250e7579cb388fa18c5c2d7d65&amp;v=4",
-      whatsapp: "89028922",
-      bio: "Entusiasta das melhores tecnologias de química avançada.<br><br>Apaixonado por explodir coisas em laboratório e por mudar a vida das pessoas através de experiências. Mais de 200.000 pessoas já passaram por uma das minhas explosões.</p>",
-      subject: "Química", 
-      cost: "20", 
-      weekday: [0], 
-      time_from: [720], 
-      time_to: [1220] 
+    { 
+        name: "Diego Fernandes",
+        avatar: "https://avatars2.githubusercontent.com/u/2254731?s=460&amp;u=0ba16a79456c2f250e7579cb388fa18c5c2d7d65&amp;v=4",
+        whatsapp: "89028922",
+        bio: "Entusiasta das melhores tecnologias de química avançada.<br><br>Apaixonado por explodir coisas em laboratório e por mudar a vida das pessoas através de experiências. Mais de 200.000 pessoas já passaram por uma das minhas explosões.</p>",
+        subject: "Química", 
+        cost: "20", 
+        weekday: [0], 
+        time_from: [720], 
+        time_to: [1220] 
     },
 
-    { name: "Valdemi Junior",
-      avatar: "https://avatars2.githubusercontent.com/u/47836518?s=460&u=29348d610374298f0bd9535090e24201a42dc8e7&v=4",
-      whatsapp: "85985795482",
-      bio: "Entusiasta das melhores tecnologias de química avançada.<br><br>Apaixonado por explodir coisas em laboratório e por mudar a vida das pessoas através de experiências. Mais de 200.000 pessoas já passaram por uma das minhas explosões.</p>",
-      subject: "Química", 
-      cost: "20", 
-      weekday: [0], 
-      time_from: [720], 
-      time_to: [1220] 
+    { 
+        name: "Valdemi Junior",
+        avatar: "https://avatars2.githubusercontent.com/u/47836518?s=460&u=29348d610374298f0bd9535090e24201a42dc8e7&v=4",
+        whatsapp: "85985795482",
+        bio: "Entusiasta das melhores tecnologias de química avançada.<br><br>Apaixonado por explodir coisas em laboratório e por mudar a vida das pessoas através de experiências. Mais de 200.000 pessoas já passaram por uma das minhas explosões.</p>",
+        subject: "Química", 
+        cost: "20", 
+        weekday: [0], 
+        time_from: [720], 
+        time_to: [1220]
     }
 ]
 
@@ -96,4 +98,4 @@ server
 .get("/study", pageStudy)
 .get("/give-classes", pageGiveClasses)
 
-.listen(5510)
+.listen(5500)
